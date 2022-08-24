@@ -1,0 +1,6 @@
+  <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1694"
+    width="15" height="15">
+    <path
+      d="M512 0a512 512 0 1 0 0 1024A512 512 0 0 0 512 0z m128 768v128H256v-128h128V128l529.728 231.872L512 591.808V768h128z"
+      p-id="1695" fill="#d81e06"></path>
+  </svg>

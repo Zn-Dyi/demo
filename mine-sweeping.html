@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MineSweeper</title>
   <style>
+    .box {
+      display: flex;
+      justify-content: center;
+    }
+
     #map {
       position: absolute;
       border: 3px #A4A4A4 solid;
@@ -24,7 +29,10 @@
 </head>
 
 <body>
-  <div id="map"></div>
+  <div class="box">
+    <div id="map"></div>
+  </div>
+
 </body>
 
 <script>
@@ -249,7 +257,7 @@
     // 如果已经显示了不能插旗，旗帜不能比雷多。
     if (current.isShow === false && flagCount <= COUNT) {
       let img = document.createElement('img')
-      img.src = './images/qi.jpg'
+      img.src = './qi.svg'
       img.style.height = "16px"
       img.style.width = "16px"
       currentDom.appendChild(img)
