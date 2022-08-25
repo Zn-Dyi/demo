@@ -25,12 +25,29 @@
       border-radius: 5px;
       text-align: center;
     }
+
+    .text {
+      position: absolute;
+      margin: 400px;
+      width: 400px;
+      line-height: 25px;
+    }
+
+    .text p {
+      text-indent: 32px;
+    }
+
+
   </style>
 </head>
 
 <body>
   <div class="box">
     <div id="map"></div>
+    <div class="text">
+      <h3>操作说明：</h3>
+      <p>左键点击找雷，格子里的数字代表它周围雷的个数，右键点击方块以小旗记为雷，触雷游戏game over。</p>
+    </div>
   </div>
 
 </body>
